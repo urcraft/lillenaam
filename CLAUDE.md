@@ -1,4 +1,4 @@
-# Naamam — Baby Names Voting App
+# Lillenaam — Baby Names Voting App
 
 > End users setting up a fork should start with `README.md`. This file is for coding agents working in the codebase.
 
@@ -49,7 +49,7 @@ npm run lint     # ESLint
 ## Project Structure
 
 ```
-naamam/
+lillenaam/
 ├── src/
 │   ├── app/
 │   │   ├── layout.tsx              # Root layout: Inter font, AuthProvider, Navbar, Footer

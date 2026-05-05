@@ -1,4 +1,4 @@
-# Naamam — Baby Names Voting
+# Lillenaam — Baby Names Voting
 
 A small Next.js + Firebase web app that lets friends and family browse a curated list of baby names, pick their top 5, and crown a #1 favorite. The original build was for one Indian family expecting a baby girl in Denmark, where parents must choose from an officially approved name list. The codebase is now an open-source template — fork it for your own family, swap the name list, rebrand the copy, and ship it.
 
@@ -85,7 +85,7 @@ Personal copy and branding stay in source so forkers have one place to grep. Use
 - **App name and OG description:** `src/app/layout.tsx` — change the `APP_NAME` and `APP_DESCRIPTION` constants at the top of the file. Two edit points to rebrand all metadata.
 - **Landing page heading + copy + Danish registry link:** `src/app/page.tsx` — search for `"baby girl"` and `"familieretshuset.dk"`.
 - **Footer text:** `src/components/Footer.tsx` — search for `"Made with"`.
-- **Navbar brand:** `src/components/Navbar.tsx` — search for `<span>Naamam</span>`.
+- **Navbar brand:** `src/components/Navbar.tsx` — search for `<span>Lillenaam</span>`.
 - **Help modal copy:** `src/components/Navbar.tsx` — search for `"How voting works"`.
 - **Logos:** replace `public/icon.png`, `public/apple-icon.png`, `public/opengraph-image.png`.
 
@@ -113,7 +113,7 @@ Read these before deploying anywhere outside a closed family circle.
 ## Project structure
 
 ```
-naamam/
+lillenaam/
 ├── src/
 │   ├── app/
 │   │   ├── layout.tsx              # Root layout: Inter font, AuthProvider, Navbar, Footer
