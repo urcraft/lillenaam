@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-const APP_NAME = "Naamam";
+const APP_NAME = "Lillenaam";
 const APP_DESCRIPTION =
   "Help us choose a name for our baby girl! Browse officially approved Danish names with Indic origins and pick your top 5, including your #1 favorite.";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";

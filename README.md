@@ -4,6 +4,10 @@ A small Next.js + Firebase web app that lets friends and family browse a curated
 
 It's intentionally small: ~750 lines of TypeScript, no API routes, all data flows directly from the browser to Firestore via the Firebase JS SDK.
 
+### How the bundled name list was built
+
+Denmark publishes its officially approved first names through Familieretshuset (the Family Law Agency) — see [Godkendte fornavne](https://familieretshuset.dk/emner/navne/navnelister/godkendte-fornavne/) for the searchable registry and downloadable lists (currently ~25,316 girl names + ~1,284 unisex names ≈ 26,600 total). For this project the full **girl + unisex** subset (~26,000 names) was scraped from that registry and run through Google's **Gemini Flash** model to enrich each name with: an `Origin` tag (Sanskrit, Tamil, Hebrew, etc.), a `Hindu` classification (`YES`/`MAYBE`/no), a one-line `Meaning`, a `Danish_Difficulty` rating (`EASY`/`MODERATE`/`HARD`), and any specific `Danish_Pronunciation_Issues`. The output was filtered down to the 2,655 Hindu / Hindu-sounding names shipped in `hindu_names.csv`. Forkers in other countries can repeat the same approach against their local registry, or skip the LLM step entirely and seed any CSV that matches the schema documented below.
+
 ## Screenshots
 
 _Add your own screenshots here once deployed._

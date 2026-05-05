@@ -4,7 +4,7 @@
 
 ## Context
 
-Indian Hindu couple from Kerala expecting a baby girl in Denmark. Denmark has an official list of approved names. ~25,000 names were processed through Gemini Flash and filtered to 2,655 Hindu/Hindu-sounding names with metadata (meaning, origin, Danish pronunciation difficulty).
+Indian Hindu couple from Kerala expecting a baby girl in Denmark. Denmark has an official list of approved names published by Familieretshuset (~25,316 girl + 1,284 unisex ≈ 26,600 names total — see [Godkendte fornavne](https://familieretshuset.dk/emner/navne/navnelister/godkendte-fornavne/)). The girl + unisex subset was processed through Gemini Flash and filtered to 2,655 Hindu/Hindu-sounding names with metadata (meaning, origin, Danish pronunciation difficulty).
 
 This app lets friends and family browse and vote for their top 5 favorites. Parents get an admin dashboard to see which names are most popular.
 

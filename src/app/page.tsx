@@ -28,14 +28,14 @@ export default function LandingPage() {
       <div className="flex items-center gap-4 mb-2">
         <Image
           src="/icon.png"
-          alt="Naamam logo"
+          alt="Lillenaam logo"
           width={72}
           height={72}
           className="w-16 h-16 md:w-18 md:h-18"
           priority
         />
         <h1 className="text-5xl md:text-6xl font-bold text-saffron">
-          Naamam
+          Lillenaam
         </h1>
       </div>
       <p className="text-lg text-gray-600 max-w-2xl mt-4 mb-8">

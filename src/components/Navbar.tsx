@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useAuth } from "@/lib/useAuth";
 import { useAdmin } from "@/lib/useAdmin";
 
-const HELP_SEEN_KEY = "naamam_help_seen";
+const HELP_SEEN_KEY = "lillenaam_help_seen";
 
 export default function Navbar() {
   const { user, signOut } = useAuth();
@@ -32,12 +32,12 @@ export default function Navbar() {
         <Link href="/names" className="flex items-center gap-2 text-xl font-bold text-saffron">
           <Image
             src="/icon.png"
-            alt="Naamam"
+            alt="Lillenaam"
             width={32}
             height={32}
             className="w-8 h-8"
           />
-          <span>Naamam</span>
+          <span>Lillenaam</span>
         </Link>
 
         {/* Desktop nav */}
